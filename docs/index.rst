@@ -6,6 +6,7 @@ Fast Monkeys developer guide
     editors
     python
     javascript
+    coffeescript
     databases
     heroku
 
@@ -13,6 +14,7 @@ Fast Monkeys developer guide
 .. include:: ./editors.rst
 .. include:: ./python.rst
 .. include:: ./javascript.rst
+.. include:: ./coffeescript.rst
 .. include:: ./databases.rst
 .. include:: ./heroku.rst
 
