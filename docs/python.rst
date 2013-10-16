@@ -45,7 +45,7 @@ Perfomance tuning
 
 Example 1. Count all articles
 
-Do *NOT* do this:
+Do **NOT** do this:
 
 
 ::
