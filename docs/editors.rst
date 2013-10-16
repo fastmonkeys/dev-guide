@@ -30,3 +30,17 @@ Recommended packages:
 
 
 .. _Package Control: http://wbond.net/sublime_packages/package_control
+
+
+Useful shortcuts
+****************
+
++---------------------+--------------------------------------+
+| Shortcut            | Description                          |
++=====================+======================================+
+| cmd + shift + arrow | Edit many lines at once              |
++---------------------+--------------------------------------+
+| cmd + d             | Select the next occurrence of string |
++---------------------+--------------------------------------+
+
+See more shortcuts at (?).
