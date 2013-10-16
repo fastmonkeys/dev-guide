@@ -134,6 +134,31 @@ Batch fetching all articles and associated tags:
     batch_fetch(articles, ['tags'])
 
 
+Alembic
+-------
+
+
+Check revisions
+***************
+
+::
+
+
+    $ alembic history
+
+
+Autogenerating new revision
+***************************
+
+::
+
+
+    $ alembic revision --autogenerate
+
+
+
+
+
 Testing with pytest
 -------------------
 
