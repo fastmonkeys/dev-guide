@@ -13,6 +13,16 @@ Flask
 SQLAlchemy
 ----------
 
+Versioning
+**********
+
+
+Searching
+*********
+
+Use `SQLAlchemy-Searchable`_ whenever project needs `full text search`_ capabilities.
+
+
 Perfomance tuning
 *****************
 
@@ -44,4 +54,7 @@ Batch fetching all articles and associated tags:
 
 
 .. _`Hitchhiker's guide to Python`: http://docs.python-guide.org/en/latest/
+.. _`full text search`: http://en.wikipedia.org/wiki/Full_text_search
+.. _`SQLAlchemy-Searchable`: https://sqlalchemy-searchable.readthedocs.org/en/latest/
 .. _`deferred column loading`: http://docs.sqlalchemy.org/en/latest/orm/mapper_config.html#deferred-column-loading
+
