@@ -22,7 +22,7 @@ List all tables
 ::
 
 
-    # \d
+    mydatabase=# \d
 
 
 List columns of a table
@@ -30,7 +30,7 @@ List columns of a table
 ::
 
 
-    # \d <table>
+    mydatabase=# \d <table>
 
 
 
