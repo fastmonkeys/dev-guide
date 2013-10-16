@@ -7,6 +7,7 @@ Fast Monkeys developer guide
     python
     javascript
     coffeescript
+    css
     databases
     heroku
 
@@ -15,6 +16,7 @@ Fast Monkeys developer guide
 .. include:: ./python.rst
 .. include:: ./javascript.rst
 .. include:: ./coffeescript.rst
+.. include:: ./css.rst
 .. include:: ./databases.rst
 .. include:: ./heroku.rst
 

@@ -4,7 +4,7 @@ Editors
 Sublime Text 2
 --------------
 
-http://www.sublimetext.com/
+Sublime Text is a sophisticated text editor for code, markup and prose. See http://www.sublimetext.com.
 
 Installing packages
 *******************
