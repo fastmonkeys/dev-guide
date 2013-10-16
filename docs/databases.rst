@@ -9,8 +9,7 @@ PostgreSQL
 Useful commands
 ^^^^^^^^^^^^^^^
 
-Open database console
-+++++++++++++++++++++
+- Open database console
 
 
 ::
@@ -19,6 +18,26 @@ Open database console
     $ psql <database-name>
 
 
+- List all tables
+
+
+::
+
+
+    # \d
+
+
+- List columns of a table
+
+
+::
+
+
+    # \d <table>
+
+
+
++++++++++++++
 
 
 Things to remember
