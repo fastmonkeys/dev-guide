@@ -138,8 +138,8 @@ Alembic
 -------
 
 
-Check revisions
-***************
+List revisions
+**************
 
 ::
 
