@@ -6,12 +6,23 @@ Coding standards
 
 - `Hitchhiker's guide to Python`_
 
+
 Flask
 -----
 
 
+
+Internationalization
+--------------------
+
+* Babel_
+* `Flask-Babel`_
+* `SQLAlchemy-i18n`_
+
+
 SQLAlchemy
 ----------
+
 
 Versioning
 **********
@@ -30,7 +41,7 @@ Perfomance tuning
 
 - Index all foreign keys
 
-- Calculate things as close to database as possible. For example calculate data aggregates on the database side rather than Python side.
+- Keep things as close to database as possible. For example calculate data aggregates on the database side rather than on the Python side.
 
 Example 1. Count all articles
 
@@ -76,9 +87,35 @@ Batch fetching all articles and associated tags:
     batch_fetch(articles, ['tags'])
 
 
+Testing with pytest
+-------------------
+
+
+Useful commands
+***************
+
+Running single test
++++++++++++++++++++
+
+::
+
+
+    $ py.test tests/test_something.py -k some_test_method
+
+
+Using debugger
+++++++++++++++
+
+Whenever you have a failing test case you should use `Python Debugger`_.
+
+
+
 .. _`Hitchhiker's guide to Python`: http://docs.python-guide.org/en/latest/
 .. _`full text search`: http://en.wikipedia.org/wiki/Full_text_search
+.. _`Babel`: http://babel.pocoo.org/
+.. _`Flask-Babel`: http://pythonhosted.org/Flask-Babel/
+.. _`SQLAlchemy-i18n`: https://sqlalchemy-i18n.readthedocs.org/en/latest/
 .. _`SQLAlchemy-Searchable`: https://sqlalchemy-searchable.readthedocs.org/en/latest/
 .. _`SQLAlchemy-Continuum`: https://sqlalchemy-continuum.readthedocs.org/en/latest/
 .. _`deferred column loading`: http://docs.sqlalchemy.org/en/latest/orm/mapper_config.html#deferred-column-loading
-
+.. _`Python Debugger`: http://pytest.org/latest/usage.html#dropping-to-pdb-python-debugger-on-failures
