@@ -7,7 +7,8 @@ Sublime Text 2
 http://www.sublimetext.com/
 
 Installing packages
-```````````````````
+*******************
+
 
 Install `Package Control`_ first. Then to install other packages for Mac:
 

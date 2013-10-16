@@ -7,10 +7,9 @@ PostgreSQL
 
 
 Useful commands
-^^^^^^^^^^^^^^^
+***************
 
-- Open database console
-
+Open database console
 
 ::
 
@@ -18,8 +17,7 @@ Useful commands
     $ psql <database-name>
 
 
-- List all tables
-
+List all tables
 
 ::
 
@@ -27,8 +25,7 @@ Useful commands
     # \d
 
 
-- List columns of a table
-
+List columns of a table
 
 ::
 
@@ -37,11 +34,9 @@ Useful commands
 
 
 
-+++++++++++++
-
-
 Things to remember
-^^^^^^^^^^^^^^^^^^
+******************
+
 
 - Unlike some other databases, PostgreSQL_ does *NOT* index foreign keys by default. You should always remember to index all foreign keys.
 
