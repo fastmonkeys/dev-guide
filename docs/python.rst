@@ -1,6 +1,51 @@
 Python
 ======
 
+
+PIP
+---
+
+Updating package wheel
+**********************
+
+When updating a package wheel you need to the following things:
+
+1. Generate the wheel file (the example uses SQLAlchemy-Continuum package with version 0.10.0)
+
+::
+
+
+    $ pip wheel --wheel-dir=./wheels SQLAlchemy-Continuum==0.10.0
+
+
+2. Check which dependant wheel files were affected by running git status and checking which wheel files were modified:
+
+
+::
+
+    $ git status
+
+
+3. Run git checkout for each of those files (we don't want to bloat git version history)
+
+::
+
+
+    $ git checkout xxx.wheel
+
+
+
+4. Remove the old wheel file of this package, for example:
+
+
+::
+
+
+    $ git rm SQLAlchemy_Continuum-0.8.5-py27-none-any.whl
+
+
+
+
 Coding standards
 ----------------
 
@@ -66,6 +111,8 @@ Instead do this:
 
 - Load only the columns you need using `deferred column loading`_.
 
+- For long running data manipulation operations use background processing.
+
 - Load one-to-one and many-to-one data at once. Load one-to-many and many-to-many relation data using subqueryload or batch_fetch.
 
 Subqueryloading all articles and associated tags:
@@ -89,6 +136,35 @@ Batch fetching all articles and associated tags:
 
 Testing with pytest
 -------------------
+
+
+Coding standards
+****************
+
+- Write small test methods presumably with one assert per test method
+- Test method name should correlate with the testing scenario
+
+Bad naming:
+
+
+::
+
+    def test_save():
+        pass
+
+
+    def test_save2():
+        pass
+
+
+Better naming:
+
+
+    def test_save_returns_true_on_s()
+        pass
+
+    def test_save_trhows_exception_on_failure(self)
+- Reset the test case state after each method call (in order to avoid memory leaking and to make tests isolated from each other)
 
 
 Running single test
