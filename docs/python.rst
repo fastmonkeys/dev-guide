@@ -91,11 +91,8 @@ Testing with pytest
 -------------------
 
 
-Useful commands
-***************
-
 Running single test
-+++++++++++++++++++
+*******************
 
 ::
 
@@ -104,7 +101,7 @@ Running single test
 
 
 Using debugger
-++++++++++++++
+**************
 
 Whenever you have a failing test case you should use `Python Debugger`_.
 
