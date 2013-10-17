@@ -208,6 +208,29 @@ Whenever you have a failing test case you should use `Python Debugger`_.
 
 
 
+
+Functional programming
+----------------------
+
+https://github.com/Suor/funcy
+https://github.com/kachayev/fn.py
+
+
+
+
+Design patterns
+---------------
+
+http://martinfowler.com/eaaCatalog/
+
+
+
+
+Refactoring
+-----------
+
+http://hackflow.com/blog/2013/10/08/abstracting-control-flow/
+
 .. _`Hitchhiker's guide to Python`: http://docs.python-guide.org/en/latest/
 .. _`full text search`: http://en.wikipedia.org/wiki/Full_text_search
 .. _`Babel`: http://babel.pocoo.org/
