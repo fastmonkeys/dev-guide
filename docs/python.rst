@@ -231,6 +231,17 @@ Refactoring
 
 http://hackflow.com/blog/2013/10/08/abstracting-control-flow/
 
+
+
+Misc.
+-----
+
+Chartkick.py
+************
+https://github.com/mher/chartkick.py
+
+Create beautiful Javascript charts with minimal code. Supports Google Charts and Highcharts, works with Flask/Jinja2.
+
 .. _`Hitchhiker's guide to Python`: http://docs.python-guide.org/en/latest/
 .. _`full text search`: http://en.wikipedia.org/wiki/Full_text_search
 .. _`Babel`: http://babel.pocoo.org/
