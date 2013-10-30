@@ -75,6 +75,13 @@ Data validation
 * WTForms-Components_
 
 
+Encryption
+----------
+
+* itsdangerous_
+* passlib_
+
+
 SQLAlchemy
 ----------
 
@@ -264,6 +271,8 @@ Create beautiful Javascript charts with minimal code. Supports Google Charts and
 .. _`full text search`: http://en.wikipedia.org/wiki/Full_text_search
 .. _`Babel`: http://babel.pocoo.org/
 .. _`Flask-Babel`: http://pythonhosted.org/Flask-Babel/
+.. _itsdangerous: http://pythonhosted.org/itsdangerous/
+.. _passlib: http://pythonhosted.org/passlib/
 .. _validators: https://validators.readthedocs.org/en/latest
 .. _WTForms: https://wtforms.readthedocs.org/en/latest/
 .. _Flask-WTF: https://flask-wtf.readthedocs.org/en/latest/
