@@ -189,8 +189,12 @@ Merging git branches with alembic revisions
 
 
 
-Testing with pytest
--------------------
+Testing
+-------
+
+
+* pytest_
+* pytest-sugar_
 
 
 Coding standards
@@ -240,6 +244,13 @@ Using debugger
 
 Whenever you have a failing test case you should use `Python Debugger`_.
 
+::
+
+
+    $ py.test tests/test_something.py --pdb -k some_test_method
+
+
+You can move up and down in the call stack by typing 'u' and 'd' respectively in debug mode.
 
 
 
@@ -249,8 +260,6 @@ Functional programming
 * https://github.com/Suor/funcy
 
 * https://github.com/kachayev/fn.py
-
-
 
 
 Design patterns
@@ -289,6 +298,8 @@ Create beautiful Javascript charts with minimal code. Supports Google Charts and
 .. _passlib: http://pythonhosted.org/passlib/
 .. _validators: https://validators.readthedocs.org/en/latest
 .. _WTForms: https://wtforms.readthedocs.org/en/latest/
+.. _pytest: http://pytest.org/latest/
+.. _pytest-sugar: https://github.com/Frozenball/pytest-sugar
 .. _Flask-WTF: https://flask-wtf.readthedocs.org/en/latest/
 .. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/en/latest
 .. _WTForms-Components: https://wtforms-components.readthedocs.org/en/latest
