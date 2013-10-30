@@ -65,6 +65,16 @@ Internationalization
 * `SQLAlchemy-i18n`_
 
 
+Data validation
+---------------
+
+* WTForms_
+* validators_
+* Flask-WTF_
+* WTForms-Alchemy_
+* WTForms-Components_
+
+
 SQLAlchemy
 ----------
 
@@ -88,22 +98,22 @@ Perfomance tuning
 
 - Keep things as close to database as possible. For example calculate data aggregates on the database side rather than on the Python side.
 
-Example 1. Count all articles
+    Example 1. Count all articles
 
-Do **NOT** do this:
-
-
-::
-
-    len(Article.query)
+    Do **NOT** do this:
 
 
-Instead do this:
+    ::
+
+        len(Article.query)
 
 
-::
+    Instead do this:
 
-    Article.query.count()
+
+    ::
+
+        Article.query.count()
 
 
 - Never use LIKE '%keyword%' for searching, use `SQLAlchemy-Searchable`_  and full text indexes instead.
@@ -254,6 +264,11 @@ Create beautiful Javascript charts with minimal code. Supports Google Charts and
 .. _`full text search`: http://en.wikipedia.org/wiki/Full_text_search
 .. _`Babel`: http://babel.pocoo.org/
 .. _`Flask-Babel`: http://pythonhosted.org/Flask-Babel/
+.. _validators: https://validators.readthedocs.org/en/latest
+.. _WTForms: https://wtforms.readthedocs.org/en/latest/
+.. _Flask-WTF: https://flask-wtf.readthedocs.org/en/latest/
+.. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.org/en/latest
+.. _WTForms-Components: https://wtforms-components.readthedocs.org/en/latest
 .. _`SQLAlchemy-i18n`: https://sqlalchemy-i18n.readthedocs.org/en/latest/
 .. _`SQLAlchemy-Searchable`: https://sqlalchemy-searchable.readthedocs.org/en/latest/
 .. _`SQLAlchemy-Continuum`: https://sqlalchemy-continuum.readthedocs.org/en/latest/
