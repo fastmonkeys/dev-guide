@@ -106,7 +106,6 @@ Instead do this:
     Article.query.count()
 
 
-
 - Never use LIKE '%keyword%' for searching, use `SQLAlchemy-Searchable`_  and full text indexes instead.
 
 - Load only the columns you need using `deferred column loading`_.
@@ -115,23 +114,23 @@ Instead do this:
 
 - Load one-to-one and many-to-one data at once. Load one-to-many and many-to-many relation data using subqueryload or batch_fetch.
 
-Subqueryloading all articles and associated tags:
+    Subqueryloading all articles and associated tags:
 
-::
+    ::
 
-    articles = Article.query.options(db.subqueryload(Article.tags))
-
-
-Batch fetching all articles and associated tags:
-
-::
-
-    from sqlalchemy_utils import batch_fetch
+        articles = Article.query.options(db.subqueryload(Article.tags))
 
 
-    articles = Article.query.all()
+    Batch fetching all articles and associated tags:
 
-    batch_fetch(articles, ['tags'])
+    ::
+
+        from sqlalchemy_utils import batch_fetch
+
+
+        articles = Article.query.all()
+
+        batch_fetch(articles, ['tags'])
 
 
 Alembic
@@ -154,6 +153,11 @@ Autogenerating new revision
 
 
     $ alembic revision --autogenerate
+
+
+
+Merging git branches with alembic revisions
+*******************************************
 
 
 
@@ -185,10 +189,14 @@ Bad naming:
 Better naming:
 
 
-    def test_save_returns_true_on_s()
+::
+
+    def test_save_returns_true_on_some_scenario()
         pass
 
-    def test_save_trhows_exception_on_failure(self)
+    def test_save_throws_exception_on_failure(self)
+
+
 - Reset the test case state after each method call (in order to avoid memory leaking and to make tests isolated from each other)
 
 
