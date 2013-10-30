@@ -246,8 +246,9 @@ Whenever you have a failing test case you should use `Python Debugger`_.
 Functional programming
 ----------------------
 
-https://github.com/Suor/funcy
-https://github.com/kachayev/fn.py
+* https://github.com/Suor/funcy
+
+* https://github.com/kachayev/fn.py
 
 
 
