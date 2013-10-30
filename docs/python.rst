@@ -65,6 +65,15 @@ Internationalization
 * `SQLAlchemy-i18n`_
 
 
+Data transformation
+-------------------
+
+* lxml_
+* markdown2_
+* tablib_
+* anyjson_
+
+
 Data validation
 ---------------
 
@@ -271,6 +280,10 @@ Create beautiful Javascript charts with minimal code. Supports Google Charts and
 .. _`full text search`: http://en.wikipedia.org/wiki/Full_text_search
 .. _`Babel`: http://babel.pocoo.org/
 .. _`Flask-Babel`: http://pythonhosted.org/Flask-Babel/
+.. _anyjson: https://pypi.python.org/pypi/anyjson
+.. _markdown2: https://github.com/trentm/python-markdown2
+.. _lxml: http://lxml.de/
+.. _tablib: http://docs.python-tablib.org/en/latest/
 .. _itsdangerous: http://pythonhosted.org/itsdangerous/
 .. _passlib: http://pythonhosted.org/passlib/
 .. _validators: https://validators.readthedocs.org/en/latest
