@@ -1,6 +1,11 @@
 Javascript
 ==========
 
+Popular conventions
+-------------------
+http://sideeffect.kr/popularconvention/#javascript
+
+
 JQuery
 ------
 
