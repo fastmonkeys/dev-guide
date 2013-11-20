@@ -9,6 +9,7 @@ Fast Monkeys developer guide
     coffeescript
     css
     databases
+    git
     heroku
     ddd
 
