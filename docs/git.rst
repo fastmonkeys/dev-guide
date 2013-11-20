@@ -44,32 +44,32 @@ Example
 Key concepts
 ************
 
-1. First line should be a **capitalized short summary** and should not end with
-   a period
-2. First line should be **in imperative**, because it matches up with messages
-   from git merge and revert:
+- First line should be a **capitalized short summary** and should not end with
+  a period
+- First line should be **in imperative**, because it matches up with messages
+  from git merge and revert:
 
-   - DON'T DO THIS:
+  - DON'T DO THIS:
 
-     ::
+    ::
 
-         added underscore.js to assets
+        added underscore.js to assets
 
-   - Do this:
+  - Do this:
 
-     ::
+    ::
 
-         Add underscore.js to assets
+        Add underscore.js to assets
 
-3. Don't hesitate to use multiline commit messages:
+- Don't hesitate to use multiline commit messages:
 
-   - Give further information about the commit, technical details etc.
-   - Remember the blank line between summary and body!
+  - Give further information about the commit, technical details etc.
+  - Remember the blank line between summary and body!
 
 
-4. Reference a Github issue whenever possible:
+- Reference a Github issue whenever possible:
 
-   - Use present tense: fixes, refs
+  - Use present tense: fixes, refs
 
 Read more
 *********
