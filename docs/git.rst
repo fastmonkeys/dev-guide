@@ -1,6 +1,64 @@
 Git
 ===
 
+Workflow
+--------
+
+All changes to ``master`` go through pull requests. Feature/hotfix branches 
+should branch from the latest ``master``. Before issuing a new pull request, 
+remember to rebase ``master`` to your local branch.
+
+Example
+*******
+
+::
+
+   $ git checkout master
+   $ git pull
+   $ git checkout -b my-feature-branch
+   $ touch new_file.txt
+   $ git commit -am "Add new file"
+   .
+   .
+   .
+   $ git checkout master
+   $ git pull
+   $ git checkout my-feature-branch
+   $ git rebase master
+   $ git push -u origin my-feature-branch
+   
+   Create a pull request
+   
+Pull requests can be assigned to person best capable of reviewing them.
+
+Reviewing pull requests
+***********************
+
+Checklist for reviewing:
+
+- **Travis build must pass**
+- Test coverage
+- No haxes or workarounds
+- Code style, naming conventions, etc.
+- Sensible commits and commit messages
+- Ad-hoc testing of the pull request
+
+Branch naming
+*************
+
+- ``feature/XXXX-short-description``
+- ``hotfix/XXXX-short-description``
+
+Where XXXX stands for possible Github issue number.
+
+
+Translations
+************
+
+If your branch includes changes that need translations, remember to make the pull request to ``translations`` branch.
+
+
+
 A good commit
 -------------
 
