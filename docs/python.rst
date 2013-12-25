@@ -257,9 +257,19 @@ You can move up and down in the call stack by typing 'u' and 'd' respectively in
 Functional programming
 ----------------------
 
+Functional libraries
+********************
+
 * https://github.com/Suor/funcy
 
 * https://github.com/kachayev/fn.py
+
+
+Excellent articles
+******************
+
+* http://joshbohde.com/blog/functional-python
+
 
 
 Design patterns
