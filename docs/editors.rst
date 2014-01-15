@@ -1,14 +1,15 @@
 Editors
 =======
 
-Sublime Text 2
+Sublime Text 3
 --------------
 
-Sublime Text is a sophisticated text editor for code, markup and prose. See http://www.sublimetext.com.
+`Sublime Text`_ is a sophisticated text editor for code, markup and prose.
+
+.. _Sublime Text: http://www.sublimetext.com
 
 Installing packages
 *******************
-
 
 Install `Package Control`_ first. Then to install other packages for Mac:
 
@@ -20,13 +21,16 @@ Recommended packages:
 
 - CoffeeScript
 - Emmet
+- Format SQL
 - Git
 - GitGutter
+- Jedi - Python autocompletion
 - Jinja2
 - LESS
+- requirementstxt
 - SideBarEnhancements
-- SublimeJEDI
-- SublimeLinter
+- SublimeLinter 3
+- SublimeLinter-flake8
 
 
 .. _Package Control: http://wbond.net/sublime_packages/package_control
