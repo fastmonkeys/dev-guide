@@ -50,6 +50,8 @@ Coding standards
 ----------------
 
 - `Hitchhiker's guide to Python`_
+- Imports should be grouped as defined in `PEP 8`_
+- Imports should be ordered in alphabetical order inside each group of imports.
 
 
 Flask
@@ -318,3 +320,4 @@ Create beautiful Javascript charts with minimal code. Supports Google Charts and
 .. _`SQLAlchemy-Continuum`: https://sqlalchemy-continuum.readthedocs.org/en/latest/
 .. _`deferred column loading`: http://docs.sqlalchemy.org/en/latest/orm/mapper_config.html#deferred-column-loading
 .. _`Python Debugger`: http://pytest.org/latest/usage.html#dropping-to-pdb-python-debugger-on-failures
+.. _`PEP 8`: http://legacy.python.org/dev/peps/pep-0008/#imports
