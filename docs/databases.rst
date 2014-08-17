@@ -34,6 +34,13 @@ List columns of a table
 
 
 
+Use EXISTS instead of IN
+************************
+
+
+http://ioanadanes.blogspot.fi/2011/07/postgres-90-exists-vs-in.html
+
+
 Things to remember
 ******************
 
