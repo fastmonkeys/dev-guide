@@ -39,12 +39,22 @@ Recommended packages:
 Useful shortcuts
 ****************
 
-+---------------------+--------------------------------------+
-| Shortcut            | Description                          |
-+=====================+======================================+
-| cmd + shift + arrow | Edit many lines at once              |
-+---------------------+--------------------------------------+
-| cmd + d             | Select the next occurrence of string |
-+---------------------+--------------------------------------+
++----------------------+--------------------------------------+
+| Shortcut             | Description                          |
++======================+======================================+
+| ctrl + shift + arrow | Edit many lines at once              |
++----------------------+--------------------------------------+
+| cmd + d              | Select the next occurrence of string |
++----------------------+--------------------------------------+
+| cmd + alt + down     | Go to definition (class, function...)|
++----------------------+--------------------------------------+
+| cmd + shift + 7      | Comment a block of code              |
++----------------------+--------------------------------------+
+| F5                   | Sort selected rows alphabetically    |
++----------------------+--------------------------------------+
+| cmd + shift + f      | Find from files in project/folder    |
++----------------------+--------------------------------------+
 
-See more shortcuts at (?).
+See more shortcuts and tips at `General Assembly's blog post`_.
+
+.. _General Assembly's blog post: https://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/
