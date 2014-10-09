@@ -12,8 +12,9 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys
 import os
+import sys
+from datetime import date
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -54,7 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Fast Monkeys developer guide'
-copyright = u'2013, Konsta Vesterinen, Eero \'Eros\' Vehmanen'
+copyright = u'2013-{}, Fast Monkeys'.format(date.today().year)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
