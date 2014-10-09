@@ -5,6 +5,10 @@ Databases
 PostgreSQL
 ----------
 
+Installation
+************
+
+`Postgres.app`_: "The easiest way to get started with PostgreSQL on the Mac"
 
 Useful commands
 ***************
@@ -74,5 +78,31 @@ Instead do this:
 Redis
 -----
 
+Installation
+************
 
+Via Homebrew:
+
+::
+
+    $ brew install redis
+
+
+Useful commands
+***************
+
+Ping Redis server
+
+::
+
+    redis-cli ping
+
+Clear Redis database
+
+::
+
+    redis-cli flushdb
+
+
+.. _`Postgres.app`: http://postgresapp.com/
 .. _PostgreSQL: http://www.postgresql.org/
