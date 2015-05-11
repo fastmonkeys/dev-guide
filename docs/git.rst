@@ -4,28 +4,40 @@ Git
 Workflow
 --------
 
-All changes to ``master`` go through pull requests. Feature/hotfix branches 
-should branch from the latest ``master``. Before issuing a new pull request, 
-remember to rebase ``master`` to your local branch.
+Workflow follows `Scrum`_ methology.
+
+``master`` branch should only contain features that have been approved.
+This is achieved by keeping a separate ``develop`` branch which contains all finished
+but unapproved features.
+
+After each sprint, ``master`` branch is merged to ``develop`` and
+``develop`` is merged back to ``master``.
+
+All changes to ``master`` and ``develop`` go through pull requests. Feature branches
+should branch from the latest ``develop`` and hotfix branches from latest ``master``.
+Before issuing a new pull request, you may rebase the parent to your local branch.
+
+.. _Scrum:
+   http://en.wikipedia.org/wiki/Scrum_%28software_development%29
 
 Example
 *******
 
 ::
 
-   $ git checkout master
+   $ git checkout develop
    $ git pull
-   $ git checkout -b my-feature-branch
+   $ git checkout -b feature/my-feature-branch
    $ touch new_file.txt
    $ git commit -am "Add new file"
    .
    .
    .
-   $ git checkout master
+   $ git checkout develop
    $ git pull
-   $ git checkout my-feature-branch
-   $ git rebase master
-   $ git push -u origin my-feature-branch
+   $ git checkout feature/my-feature-branch
+   $ git rebase develop
+   $ git push -u origin feature/my-feature-branch
    
    Create a pull request
    
